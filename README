@@ -1,0 +1,137 @@
+marbles
+------------------------------------------
+SDL marbles game
+
+Runtime requirements:
+  libSDL-1.2.9-1
+  libSDL_mixer-1.2.6-1
+  xorg-x11-base-6.8.2.0-1
+
+Build requirements:
+  cygwin-1.5.18-1
+  autoconf2.5-2.59-3
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  make-3.80-1
+  sed-4.1.4-1
+  libSDL-devel-1.2.9-1
+  libSDL_mixer-1.2.6-1
+
+Canonical website:
+  http://lgames.sourceforge.net/
+
+Canonical download:
+  http://prdownloads.sourceforge.net/lgames/
+
+-------------------------------------------
+
+Build instructions:
+  unpack marbles-1.0.5-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./marbles-1.0.5-X.sh all
+
+This will create:
+  /usr/src/marbles-1.0.5-X-src.tar.bz2
+  /usr/src/marbles-1.0.5-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/marbles.exe
+  /usr/share/doc/Cygwin/marbles-1.0.5.README
+  /usr/share/doc/marbles-1.0.5/AUTHORS
+  /usr/share/doc/marbles-1.0.5/ChangeLog
+  /usr/share/doc/marbles-1.0.5/COPYING
+  /usr/share/doc/marbles-1.0.5/html/arrow.jpg
+  /usr/share/doc/marbles-1.0.5/html/arrow2.jpg
+  /usr/share/doc/marbles-1.0.5/html/crumble.jpg
+  /usr/share/doc/marbles-1.0.5/html/manual.html
+  /usr/share/doc/marbles-1.0.5/html/marbles.jpg
+  /usr/share/doc/marbles-1.0.5/html/teleport.jpg
+  /usr/share/doc/marbles-1.0.5/INSTALL
+  /usr/share/doc/marbles-1.0.5/NEWS
+  /usr/share/doc/marbles-1.0.5/README
+  /usr/share/doc/marbles-1.0.5/TODO
+  /usr/share/games/marbles/gfx/board.bmp
+  /usr/share/games/marbles/gfx/figure.bmp
+  /usr/share/games/marbles/gfx/f_red.bmp
+  /usr/share/games/marbles/gfx/f_small.bmp
+  /usr/share/games/marbles/gfx/f_white.bmp
+  /usr/share/games/marbles/gfx/f_yellow.bmp
+  /usr/share/games/marbles/gfx/lights.bmp
+  /usr/share/games/marbles/gfx/logo.bmp
+  /usr/share/games/marbles/gfx/marbles.bmp
+  /usr/share/games/marbles/gfx/metal/arrow_d.bmp
+  /usr/share/games/marbles/gfx/metal/arrow_l.bmp
+  /usr/share/games/marbles/gfx/metal/arrow_r.bmp
+  /usr/share/games/marbles/gfx/metal/arrow_u.bmp
+  /usr/share/games/marbles/gfx/metal/background.bmp
+  /usr/share/games/marbles/gfx/metal/barrier_lr.bmp
+  /usr/share/games/marbles/gfx/metal/barrier_ud.bmp
+  /usr/share/games/marbles/gfx/metal/floor.bmp
+  /usr/share/games/marbles/gfx/metal/teleport0.bmp
+  /usr/share/games/marbles/gfx/metal/teleport1.bmp
+  /usr/share/games/marbles/gfx/metal/teleport2.bmp
+  /usr/share/games/marbles/gfx/metal/teleport3.bmp
+  /usr/share/games/marbles/gfx/metal/wall.bmp
+  /usr/share/games/marbles/gfx/metal/wall_crumble.bmp
+  /usr/share/games/marbles/gfx/m_frame.bmp
+  /usr/share/games/marbles/gfx/m_sframe.bmp
+  /usr/share/games/marbles/gfx/stone/arrow_d.bmp
+  /usr/share/games/marbles/gfx/stone/arrow_l.bmp
+  /usr/share/games/marbles/gfx/stone/arrow_r.bmp
+  /usr/share/games/marbles/gfx/stone/arrow_u.bmp
+  /usr/share/games/marbles/gfx/stone/background.bmp
+  /usr/share/games/marbles/gfx/stone/barrier_lr.bmp
+  /usr/share/games/marbles/gfx/stone/barrier_ud.bmp
+  /usr/share/games/marbles/gfx/stone/floor.bmp
+  /usr/share/games/marbles/gfx/stone/teleport0.bmp
+  /usr/share/games/marbles/gfx/stone/teleport1.bmp
+  /usr/share/games/marbles/gfx/stone/teleport2.bmp
+  /usr/share/games/marbles/gfx/stone/teleport3.bmp
+  /usr/share/games/marbles/gfx/stone/wall.bmp
+  /usr/share/games/marbles/gfx/stone/wall_crumble.bmp
+  /usr/share/games/marbles/gfx/tiny.sdlfnt
+  /usr/share/games/marbles/gfx/title.bmp
+  /usr/share/games/marbles/gfx/win_icon.bmp
+  /usr/share/games/marbles/gfx/wood/arrow_d.bmp
+  /usr/share/games/marbles/gfx/wood/arrow_l.bmp
+  /usr/share/games/marbles/gfx/wood/arrow_r.bmp
+  /usr/share/games/marbles/gfx/wood/arrow_u.bmp
+  /usr/share/games/marbles/gfx/wood/background.bmp
+  /usr/share/games/marbles/gfx/wood/barrier_lr.bmp
+  /usr/share/games/marbles/gfx/wood/barrier_ud.bmp
+  /usr/share/games/marbles/gfx/wood/floor.bmp
+  /usr/share/games/marbles/gfx/wood/teleport0.bmp
+  /usr/share/games/marbles/gfx/wood/teleport1.bmp
+  /usr/share/games/marbles/gfx/wood/teleport2.bmp
+  /usr/share/games/marbles/gfx/wood/teleport3.bmp
+  /usr/share/games/marbles/gfx/wood/wall.bmp
+  /usr/share/games/marbles/gfx/wood/wall_crumble.bmp
+  /usr/share/games/marbles/levels/Original
+  /usr/share/games/marbles/sounds/alarm.wav
+  /usr/share/games/marbles/sounds/arrow.wav
+  /usr/share/games/marbles/sounds/click.wav
+  /usr/share/games/marbles/sounds/explode.wav
+  /usr/share/games/marbles/sounds/score.wav
+  /usr/share/games/marbles/sounds/select.wav
+  /usr/share/games/marbles/sounds/stop.wav
+  /usr/share/games/marbles/sounds/teleport.wav
+  /usr/share/man/man6/marbles.6.gz
+  /var/lib/games/marbles.prfs
+
+------------------
+
+Port Notes:
+
+----- version 1.0.5-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

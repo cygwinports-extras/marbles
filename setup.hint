@@ -1,0 +1,4 @@
+category: Games
+requires: cygwin libSDL libSDL_mixer xorg-x11-base
+sdesc: "SDL marbles game"
+ldesc: "SDL marbles game"
